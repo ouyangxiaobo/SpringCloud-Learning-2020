@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-consume-rorder-80" />
+        <module name="cloud-consumer-consul-order-80" />
+        <module name="cloud-consumer-eureka-order-80" />
+        <module name="cloud-consumer-zookeeper-order-80" />
+        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-provider-consul-payment-8006" />
+        <module name="cloud-provider-eureka-payment-8001" />
+        <module name="cloud-provider-eureka-payment-8002" />
+        <module name="cloud-provider-zookeeper-payment-8004" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-consul-provider-payment-8006" target="1.8" />
+      <module name="cloud-consumer-consul-order-80" target="1.8" />
+      <module name="cloud-consumer-eureka-order-80" target="1.8" />
+      <module name="cloud-consumer-zookeeper-order-80" target="1.8" />
+      <module name="cloud-eureka-server-7001" target="1.8" />
+      <module name="cloud-eureka-server-7002" target="1.8" />
+      <module name="cloud-provider-consul-payment-8006" target="1.8" />
+      <module name="cloud-provider-eureka-payment-8001" target="1.8" />
+      <module name="cloud-provider-eureka-payment-8002" target="1.8" />
+      <module name="cloud-provider-zookeeper-payment-8004" target="1.8" />
+      <module name="springcloud2020" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
