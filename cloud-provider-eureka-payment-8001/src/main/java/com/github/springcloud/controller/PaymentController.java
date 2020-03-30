@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Timer;
+import java.util.concurrent.TimeUnit;
 
 /**
  * author: ouyang
@@ -102,6 +104,23 @@ public class PaymentController {
             log.info(instance.getServiceId() + "\t" + instance.getHost() + "\t" + instance.getPort() +"\t"+ instance.getUri());
         }
         return this.discoveryClient;
+    }
+
+    @GetMapping("/lb")
+    public  String getServerPort(){
+        return serverPort;
+    }
+
+
+    @GetMapping("/feign/timeout")
+    public  String  paymenFeigntTimeOUt(){
+        try {
+             TimeUnit.SECONDS.sleep(3);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 
 }
