@@ -13,6 +13,9 @@ spring:
             ####搜索目录
 
           skip-ssl-validation: true
+            ####搜索目录
+          search-paths:
+            - SpringCloud-Config-2020
       ####读取分支
       label: master
 
