@@ -10,7 +10,9 @@ spring:
         git:
           uri: git@github.com:ouyangxiaobo/SpringCloud-Config-2020.git #GitHub上面的git仓库名字
           ####搜索目录
-
+            ####搜索目录
+          search-paths:
+            - SpringCloud-Config-2020
       ####读取分支
       label: master
 
