@@ -13,11 +13,11 @@
 
 
     <dependencies>
-      <!--  &lt;!&ndash;添加消息总线RabbitMQ支持&ndash;&gt;
+        <!--添加消息总线RabbitMQ支持-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
