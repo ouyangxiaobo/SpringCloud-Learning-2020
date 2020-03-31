@@ -2,7 +2,7 @@ server:
   port: 8802
 spring:
   application:
-    name: cloud-stream-privider
+    name: cloud-stream-consumer
   cloud:
     stream:
       binders:   #自此处配置要绑定的rabbitmq的服务信息
